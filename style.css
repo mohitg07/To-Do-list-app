@@ -1,0 +1,93 @@
+html{
+    background-color: rgb(136, 212, 212);
+}
+
+.headings{
+    text-align: center;
+    font-weight: bold;
+}
+
+h1{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+}
+
+.line1{
+    color: yellow;
+    font-size: 25px;
+}
+
+.line2{
+    color: rgb(27, 133, 27);
+    font-size: 20px;
+}
+
+.line3{
+     color: indianred;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+}
+
+#list{
+    width: 1000px;
+    margin: 0px 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#select{
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+#select:hover{
+    border: 2px solid black;
+}
+
+.subdiv{
+    width: 800px;
+    height: 23px;
+    border: 3px solid black;
+    padding: 5px;
+    margin: 30px auto;
+    background-color: rgb(70, 112, 190);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subdiv:hover{
+    background-color: rgb(37, 37, 155);
+}
+
+.cross{
+    height: 22px;
+    width: 22px;
+    float: right;
+}
+
+.cross:hover{
+    border: 2px solid red;
+}
+
+#btn{ 
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    /* border-radius: 10px; */
+    background-color: black;
+    color: white;
+}
+
+#btn:hover{
+    font-weight: bold;
+    font-size: 23px;
+}
